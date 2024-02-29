@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Register and we will contact you</h1>
+        <div id="titulos">
+            <h1 class="title">Register and we will contact you</h1>
+
+        </div>
+       
     </header>
     <main>
         <div>
@@ -20,38 +25,42 @@
         <br>
 
         <form>
-            <div>
-                <input type="text" placeholder="Name">
+            <div class="formcontainer">
+                <div>
+                    <input type="text" placeholder="Name">
+                </div>
+    
+                <br>
+    
+                <div>
+                    <input type="text" placeholder="Last name">
+                </div>
+    
+                <br>
+    
+                <div>
+                    <input type="number" placeholder="Age">
+                </div>
+    
+                <br>
+    
+                <div>
+                    <input type="password" placeholder="Password">
+                </div>
+    
+                <br>
+    
+                <div>
+                    <label for="Email">Email address</label>
+                    <input type="text" name="Email">
+                </div>
+                <br>
+    
+            <button>
+                SEND
+
             </div>
-
-            <br>
-
-            <div>
-                <input type="text" placeholder="Last name">
-            </div>
-
-            <br>
-
-            <div>
-                <input type="number" placeholder="Age">
-            </div>
-
-            <br>
-
-            <div>
-                <input type="password" placeholder="Password">
-            </div>
-
-            <br>
-
-            <div>
-                <label for="Email">Email address</label>
-                <input type="text" name="Email">
-            </div>
-            <br>
-
-        <button>
-            SEND
+            
         </button>
         </form>
         

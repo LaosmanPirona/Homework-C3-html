@@ -1,0 +1,104 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:bisque;
+ 
+}
+
+.title{
+    font-size: 3em;
+    color: brown;
+
+}
+
+#main{
+    font-size: 4em;
+
+}
+
+#titulos{
+    width: 50vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph{
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.picture{
+    width: 200px;
+    height: 300px;
+   
+    
+}
+
+.subtitle{
+    font-size: 2em;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cards{
+    border: 2px solid chocolate;
+    width:auto;
+    padding: 1em 1em 2em 1em;
+    border-radius: 5%;
+    transition: 1s;
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards:hover{
+    background-color: aqua;
+}
+
+#cards-container{
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    
+    padding: 2em;
+    display: flex;
+    display: row;
+    justify-content: space-evenly;
+
+}
+
+.list{
+    font-size: 1.3em;
+    color: brown;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+.footer{
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formcontainer{
+    border: 2px solid rgb(105, 51, 51);
+    width: 12vw;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
